@@ -6,13 +6,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import br.com.yaman.quitanda.dao.entity.Produto;
-import br.com.yaman.quitanda.service.ProdutoService;
+import br.com.yaman.quitanda.service.ProdutoServiceImpl;
 
 @Component
 public class ProdutoBusiness implements GenericCrudBusiness<Produto> {
 
 	@Autowired
-	private ProdutoService service;
+	private ProdutoServiceImpl service;
 	
 	@Override
 	public List<Produto> findAll() {

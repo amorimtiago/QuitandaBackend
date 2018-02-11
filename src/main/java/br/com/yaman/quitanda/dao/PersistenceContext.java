@@ -71,7 +71,7 @@ public class PersistenceContext {
         jpaProperties.put("hibernate.show_sql", env.getRequiredProperty("hibernate.show_sql"));
         jpaProperties.put("hibernate.format_sql", env.getRequiredProperty("hibernate.format_sql"));
         jpaProperties.put("hibernate.jdbc.batch_size", env.getRequiredProperty("hibernate.jdbc.batch_size"));
-        jpaProperties.put("hibernate.jdbc.fatch_size", env.getRequiredProperty("hibernate.jdbc.fatch_size"));
+        jpaProperties.put("hibernate.jdbc.fetch_size", env.getRequiredProperty("hibernate.jdbc.fetch_size"));
         jpaProperties.put("hibernate.order_inserts", env.getRequiredProperty("hibernate.order_inserts"));
         jpaProperties.put("hibernate.order_updates", env.getRequiredProperty("hibernate.order_updates"));
         jpaProperties.put("hibernate.use_sql_comments", env.getRequiredProperty("hibernate.use_sql_comments"));
